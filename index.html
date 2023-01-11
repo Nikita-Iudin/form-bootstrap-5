@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>forma</title>
+</head>
+<body>
+
+    <!-- Кнопка-триггер модального окна -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Запустите демо модального окна
+  </button>
+  
+  <!-- Модальное окно -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <div class="modal-body">
+            <div class="">
+                <div class="form__bg col-lg-12 mt-100">
+                <form action="">
+                    <p class="h1 mb-50">ОФОРМЛЕНИЕ ЗАКАЗА</p>
+                    <div class=" form-group">
+                        <label for="" class="control-label col-xs-6">Наименование товара</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="control-label col-xs-6">Стоимость</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="username" class="control-label col-xs-6">Имя</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="username" class="control-label col-xs-6">Телефон для оперативной связи</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="control-label">Email на который мы пришлем свой ответ</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш Email">
+                      </div>
+
+                      <div class="form-group">
+                        <label class="control-label" for="message">Комментарий к заказу</label>
+                        <textarea class="form-control" rows="3" placeholder="" id="message"></textarea> 
+                      </div>
+                        <div class="form-group">
+                            <label class="control-label" for="message">Доставка</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Определюсь позднее</option>
+                                <option value="1">Сегодня</option>
+                                <option value="2">Завтра</option>
+                                <option value="3">Определюсь позднее</option>
+                              </select>
+                        </div>
+
+                        <div class="form__texts">
+                            <p class="form__text"> Ниже можете прикрепить файлы с макетами:</p>
+                            <ul>
+                                <li>до 5 файлов</li>
+                                <li>размер всех файлов не должен превышать 20 Мб</li>
+                                <li>Файлы большого размера выкладывайте на файлообменник и присылайте нам ссылку</li>
+                            </ul>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-file">
+                                  <input type="file" name="file" id="input__file" class="input input__file">
+  <label for="input__file">Выберите файл</label>
+                              </div>
+                        </div>
+                        <div class="guarn">
+                            Гарантия конфеденциальности 152-Ф3. <a href="">Пользовательское соглашение</a>
+                        </div>
+
+                      <button type="submit" class="btn btn-primary btn-style">Отправить</button>
+                </form>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- <div class="form-wrapper position-fixed">
+    <div class="form__bg container col-lg-4 mt-100">
+    <form action="">
+        <p class="h1 mb-500">ОФОРМЛЕНИЕ ЗАКАЗА</p>
+        <div class="form-group mt-30">
+            <label for="" class="control-label col-xs-4">Наименование товара</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="col-lg-4">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+</div> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
